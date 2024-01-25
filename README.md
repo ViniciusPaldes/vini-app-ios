@@ -28,11 +28,6 @@ The app is built using SwiftUI, Apple's innovative framework that allows for the
 
 For the Chat GPT feature, the app utilizes the OpenAI GPT-3 API, allowing for real-time conversational capabilities. This integration showcases Vini's ability to leverage third-party APIs to add complex functionalities to his applications.
 
----
-
-This README is a brief overview of the project's purpose and technical considerations. For more detailed information, please refer to the specific documentation sections or contact the developer directly.
-
-
 ## Visual Design Elements
 
 This section showcases the key visual elements of the app, including the app icon, logo, and the color palette, conceptualized with the assistance of Chat GPT and DALL·E. These AI-generated designs combine modern aesthetics with a tech-focused theme, embodying the innovative and cutting-edge nature of the app.
@@ -72,4 +67,7 @@ This section showcases the key visual elements of the app, including the app ico
 ![enter image description here](https://i.ibb.co/dJFqCx7/DALL-E-2024-01-25-19-47-16-Design-a-home-screen-for-a-mobile-app-portfolio-featuring-a-horizontal-lo.png)
 
 
+---
+
+This README is a brief overview of the project's purpose and technical considerations. For more detailed information, please refer to the specific documentation sections or contact the developer directly.
 
