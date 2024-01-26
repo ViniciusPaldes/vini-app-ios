@@ -16,8 +16,7 @@ struct ViniAppApp: App {
                 if showingSplash {
                     SplashScreen()
                         .onAppear {
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-                                // Replace '3' with the number of seconds you want the splash screen to be visible
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                                 showingSplash = false
                             }
                         }

@@ -10,27 +10,36 @@ import SwiftUI
 struct SplashScreen: View {
     var body: some View {
         ZStack {
-            // Background image
-            Image("HorizontalLogo")
-                .resizable()
-                .scaledToFill()
-                .edgesIgnoringSafeArea(.all)
-
-            // Gradient overlay
-            LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom)
-                .edgesIgnoringSafeArea(.all)
-
-            // Sample label
+            RadialGradient(gradient: Gradient(colors: [Color("app_degrade_start"), Color("app_degrade_end")]),
+                           center: .top, startRadius: 2, endRadius: 650)
+            .edgesIgnoringSafeArea(.all)
+            
             VStack {
-                Spacer()
+                GeometryReader { geometry in
+                    VStack {
+                        Spacer() // Spacer at the top
+                        
+                        Image("HorizontalLogo")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: geometry.size.width) // Subtracting to account for padding
+                        
+                        Spacer() // Spacer at the bottom
+                    }
+                }
+                
+                // Sample label
                 Text("Welcome to Vini's App")
                     .font(.system(size: 20, weight: .bold))
                     .foregroundColor(.white)
                     .padding(.bottom, 20)
+                
             }
+            .padding(.horizontal) // Adds horizontal padding
         }
     }
 }
+
 
 
 #Preview {

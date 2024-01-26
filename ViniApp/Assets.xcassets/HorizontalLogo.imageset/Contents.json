@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "vini hori-3.png",
+      "filename" : "vini_hori1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "vini hori-2.png",
+      "filename" : "vini-hori2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "DALL·E 2024-01-25 19.37.44 - Create a logo with the text 'Vini' in a white or transparent background, emphasizing the tech and developer-oriented style. The design should exclude .png",
+      "filename" : "vini-hori3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
