@@ -11,6 +11,7 @@
 		47E111812B63262300B58924 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E111802B63262300B58924 /* ContentView.swift */; };
 		47E111832B63262400B58924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E111822B63262400B58924 /* Assets.xcassets */; };
 		47E111862B63262400B58924 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E111852B63262400B58924 /* Preview Assets.xcassets */; };
+		47E1118D2B632C3800B58924 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E1118C2B632C3800B58924 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		47E111802B63262300B58924 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47E111822B63262400B58924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E111852B63262400B58924 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47E1118C2B632C3800B58924 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				47E111802B63262300B58924 /* ContentView.swift */,
 				47E111822B63262400B58924 /* Assets.xcassets */,
 				47E111842B63262400B58924 /* Preview Content */,
+				47E1118C2B632C3800B58924 /* SplashScreen.swift */,
 			);
 			path = ViniApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E1118D2B632C3800B58924 /* SplashScreen.swift in Sources */,
 				47E111812B63262300B58924 /* ContentView.swift in Sources */,
 				47E1117F2B63262300B58924 /* ViniAppApp.swift in Sources */,
 			);
@@ -285,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.grivefreely.hometest.ViniApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.ViniApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.grivefreely.hometest.ViniApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.ViniApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
